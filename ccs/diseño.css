@@ -1,0 +1,117 @@
+body{
+    color:#646d6c;
+    font-family: "Liberation Sans";
+    font-size: 1rem;
+    margin: 0;
+}
+
+h1{
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+strong{
+    font-weight: bolder;
+}
+
+.container-lg,
+.container-xl,
+.container-xxl{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+@media(min-width:1400px){
+    .container-lg,
+    .container-xl,
+    .container-xxl{
+        max-width: 1320px;
+    }
+}
+
+.header_top{
+    border: 1px solid hsla(0, 0%, 66%, 0.5);
+    box-shadow: 0 1.5px 1.5px hsla(210, 3%, 89%, 0.3);
+    padding-bottom: 0.9rem;
+    padding-top: 0.9rem;
+}
+
+@media(max-width: 479.98px){
+    .header_top{
+        padding-bottom: 0.75rem;
+        padding-top: 0.75rem;
+    }
+
+    .header_top>div{
+        text-align: center;
+    }
+}
+
+.header_bottom{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+}
+
+.header_nav a{
+    color: #104c42;
+    font-weight: 500;
+    padding: 0 0.25rem;
+}
+
+.header_nav a:not(:hover){
+    text-decoration: none;
+}
+
+.header_nav a+a{
+    margin-left: 1.25rem;
+}
+
+.hero{
+    background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg)
+        50%/coverno-repeat hsla(0, 0%, 93%, 0.8);
+    margin-bottom: 1.25;
+}
+
+.hero_background{
+    background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg)
+        50%/cover no-repeat;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.hero_title{
+    color: #fff;
+    display: grid;
+    grid-template: repeat(4,auto)/repeat(2,5ch) 16.5ch;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+@media(min-width:768px){
+    .hero_title{
+        padding-left: 3.5rem;
+    }
+
+    .hero_title::before{
+        
+    }
+}
+
+
+
+
+
