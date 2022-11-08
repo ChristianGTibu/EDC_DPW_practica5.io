@@ -119,12 +119,12 @@ url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist
     }
 }
 
-@media (max-width; 479.98px) {
+@media (max-width: 479.98px) {
     .hero_title {
         grid-template-columns: 16% 19% 65%;
     }
     
-.hero_title: span {
+.hero_title span {
     font-size: 1.0625rem;
  }       
 }
@@ -139,7 +139,7 @@ url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist
     text-align: right;
 }
 
-.hero_title span: :last-child,
+.hero_title span :last-child,
 .hero_title span:nth-child(3) {
     grid-column: 3/4;
 }
